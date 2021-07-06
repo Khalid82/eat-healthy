@@ -3,7 +3,7 @@
     margin-bottom: 60px;  
         }
 
-#background{background-image: url(Frame\ 57.jpg);
+#background{background-image: url(7.png);
             background-repeat: no-repeat;}
 
 .half-part{font-family: 'Poppins', sans-serif;
@@ -13,7 +13,7 @@
     }
 .half-part img{width: 100%;
         height: auto;}
- .three-fourth{
+.three-fourth{
         font-family: 'Poppins', sans-serif;
                 
      }
@@ -70,16 +70,17 @@ div h2{
 #menues{
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin-bottom: 50px;
 }
 .font-color{
     color: coral;
 }
 .link-button{
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgba(255, 115, 0, 0.74),tomato);
     color: white;
     text-decoration: none;
-    font-weight: 700;
-    padding: 10px 40px;
+    font-weight: 500;
+    padding: 18px 40px;
     border-radius: 40px;
 }
 .box{
