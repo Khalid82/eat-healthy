@@ -1,17 +1,32 @@
 .adjust{
     display: flex;
-    margin-bottom: 100px;  
+    margin-bottom: 0px;  
         }
+.flexible{display: flex;
+    
+    margin-bottom: 0px;}
+
 #background{background-image: url(Frame\ 57.jpg);
             background-repeat: no-repeat;}
-.half-part img{width: 100%;
-          height: auto;}
+
 .half-part{font-family: 'Poppins', sans-serif;
     margin: 40px 50px 60px;
     width: 50%;
     padding: 30px;
-    
-}
+    }
+.half-part img{width: 100%;
+        height: auto;}
+.three-fourth{
+        font-family: 'Poppins', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 25%;
+    padding: 10px;
+    }
+.three-fourth img{
+        width: 100%;
+        height: auto;
+    }
 div h1{
      font-family: 'Poppins', sans-serif;
      font-size: 50px;
@@ -34,3 +49,12 @@ div h2{
     padding: 10px 40px;
     border-radius: 40px;
 }
+.box{
+    box-shadow: 5px 5px 10px gray;
+    width: 25%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 5px;
+    border-radius: 5px;
+    }
