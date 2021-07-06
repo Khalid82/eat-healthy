@@ -1,6 +1,6 @@
 .adjust{
     display: flex;
-    margin-bottom: 0px;  
+    margin-bottom: 60px;  
         }
 
 #background{background-image: url(Frame\ 57.jpg);
@@ -13,36 +13,45 @@
     }
 .half-part img{width: 100%;
         height: auto;}
-.three-fourth{
+ .three-fourth{
         font-family: 'Poppins', sans-serif;
+                
+     }
+.three-fourth h3{
+    font-size: 22px;
+    font-weight: 900;
+}
     
-    padding: 10px;
-    }
 .three-fourth img{
         width: 100%;
         height: auto;
     }
     #left-box{
         float: left;
-        width: 23%;
+        width: 24%;
         height: 400px;
-        margin-left: 3%;
+        margin-left: 5%;
         margin-right: 3%;
-        padding: 5px;
+        padding: 10px;
+        font-size: 15px;
     }
     #middle-box{
         float: left;
-        width: 23%;
-        height: auto;
+        width: 24%;
+        height: 400px;
         margin-left: 3%;
         margin-right: 3%;
+        padding: 10px;
+        font-size: 15px;
     }
     #right-box{
         float: right;
-        width: 23%;
-        height: auto;
+        width: 24%;
+        height: 400px;
         margin-left: 3%;
-        margin-right: 3%;
+        margin-right: 5%;
+        padding: 10px;
+        font-size: 15px;
     }
 div h1{
      font-family: 'Poppins', sans-serif;
@@ -54,13 +63,15 @@ div h2{
     font-family: 'Poppins', sans-serif;
      font-size: 30px;
      font-weight: 900px;
+     margin-bottom: 0px;
     
 }
+
 #menues{
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
-#font-color{
+.font-color{
     color: coral;
 }
 .link-button{
@@ -80,3 +91,11 @@ div h2{
     padding-left: 5px;
     border-radius: 20px;
     }
+#footer{
+    margin-bottom: 40%;
+    background-color: black;
+    height: 200px;
+    color: gray;
+    text-align: center;    
+}
+
