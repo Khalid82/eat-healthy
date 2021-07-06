@@ -91,11 +91,22 @@ div h2{
     padding-left: 5px;
     border-radius: 20px;
     }
-#footer{
-    margin-bottom: 40%;
+.footer{
+    font-family: 'Poppins', sans-serif;
     background-color: black;
-    height: 200px;
+    height: 220px;
+    text-align: center;
+
+}
+.footer h1{
+    
     color: gray;
-    text-align: center;    
+    
+    font-size: 25px; 
+    margin-bottom: 0px;   
+}
+.footer h5{
+    color: white;
+    font-size: 14px; 
 }
 
