@@ -2,9 +2,6 @@
     display: flex;
     margin-bottom: 0px;  
         }
-.flexible{display: flex;
-    
-    margin-bottom: 0px;}
 
 #background{background-image: url(Frame\ 57.jpg);
             background-repeat: no-repeat;}
@@ -18,14 +15,33 @@
         height: auto;}
 .three-fourth{
         font-family: 'Poppins', sans-serif;
-    margin-left: 4%;
-    margin-right: 4%;
-    width: 25%;
+    
     padding: 10px;
     }
 .three-fourth img{
         width: 100%;
         height: auto;
+    }
+    #left-box{
+        float: left;
+        width: 26%;
+        height: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #middle-box{
+        float: left;
+        width: 26%;
+        height: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #right-box{
+        float: right;
+        width: 26%;
+        height: auto;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 div h1{
      font-family: 'Poppins', sans-serif;
@@ -50,11 +66,8 @@ div h2{
     border-radius: 40px;
 }
 .box{
-    box-shadow: 5px 5px 10px gray;
-    width: 25%;
-    height: auto;
-    margin-left: 4%;
-    margin-right: 4%;
+    box-shadow: 5px 5px 5px gray;
+    
     padding-left: 5px;
     border-radius: 5px;
     }
