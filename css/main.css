@@ -1,0 +1,36 @@
+.adjust{
+    display: flex;
+    margin-bottom: 100px;  
+        }
+#background{background-image: url(Frame\ 57.jpg);
+            background-repeat: no-repeat;}
+.half-part img{width: 100%;
+          height: auto;}
+.half-part{font-family: 'Poppins', sans-serif;
+    margin: 40px 50px 60px;
+    width: 50%;
+    padding: 30px;
+    
+}
+div h1{
+     font-family: 'Poppins', sans-serif;
+     font-size: 50px;
+     font-weight: 900px;
+     
+}
+div h2{
+    font-family: 'Poppins', sans-serif;
+     font-size: 40px;
+     font-weight: 700px;
+}
+#font-color{
+    color: coral;
+}
+.link-button{
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
